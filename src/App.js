@@ -1,6 +1,9 @@
 import React from "react";
 import Home from "./pages/home.jsx";
+import Practice from "./pages/Practice.jsx";
 import Signup from "./pages/Signup.jsx";
+import Review from "./pages/Review.jsx";
+import MockInterview from "./pages/MockInterview.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route exact index element={<Home />} />
+          <Route path="practice" element={<Practice />} />
+          <Route path="review" element={<Review />} />
+          <Route path="mock-interview" element={<MockInterview />} />
           <Route path="sign-up" element={<Signup />} />
         </Routes>
       </Router>

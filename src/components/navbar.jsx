@@ -9,16 +9,16 @@ function NavBar() {
     <>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={logo} alt="FLUENT" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Practice</Nav.Link>
-              <Nav.Link href="#link">Review</Nav.Link>
-              <Nav.Link href="#link">Mock Interview</Nav.Link>
-              <Nav.Link href="/sign-up">Log-in</Nav.Link>
+              <Nav.Link href="/practice">Practice</Nav.Link>
+              <Nav.Link href="/review">Review</Nav.Link>
+              <Nav.Link href="/mock-interview">Mock Interview</Nav.Link>
+              <Nav.Link href="/login">Log-in</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
